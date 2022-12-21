@@ -42,6 +42,8 @@ If the installation was successful, you should be able to run the following comm
 ## Running the project
 
     $ npm run start
+    
+    Now you can navigate to http://localhost:4000(http://localhost:4000) to view the project
 
 ## Running the tests
 
