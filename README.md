@@ -5,7 +5,7 @@ This is a repository containing a project for implementing Portchain coding chal
 ---
 ## Requirements
 
-For running, you will only need Node.js and a node global package manager, NPM, installed in your environment.
+For running, you will only need Node.js and a node global package manager NPM, installed in your environment.
 
 ### Node
 - #### Node installation on Windows
@@ -19,7 +19,6 @@ Also, be sure to have `git` available in your PATH, `npm` might need it (You can
 
       $ sudo apt install nodejs
       $ sudo apt install npm
-
 - #### Other Operating Systems
   You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
 
@@ -33,24 +32,17 @@ If the installation was successful, you should be able to run the following comm
 
 ###
 
-## Install
+## Run the app
 
-    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
-    $ cd PROJECT_TITLE
-    $ yarn install
+    $ git clone https://github.com/cyberprodigy/portchain-challlenge
+    $ cd portchain-challlenge
+    $ npm i
 
-## Configure app
-
-Open `a/nice/path/to/a.file` then edit it with your settings. You will need:
-
-- A setting;
-- Another setting;
-- One more setting;
 
 ## Running the project
 
-    $ yarn start
+    $ npm run start
 
-## Simple build for production
+## Running the tests
 
-    $ yarn build
+    $ npm run test
