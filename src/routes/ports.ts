@@ -4,15 +4,8 @@ import * as portsController from '../controllers/ports';
 
 const router = express.Router();
 
-router.get('/least-busy-ports/:limit?', async (req: Request, res: Response) => {
-  const limit: number | undefined = Number(req.params.limit) || 5;
-
-  const portWithNumberOfCalls = await portsController.getLeastBusyPorts(limit);
-
-  res.render('portBusyness', {
-    title: 'Least busy ports',
-    data: portWithNumberOfCalls,
-  });
+router.get('/', async (req: Request, res: Response) => {
+  res.redirect('most-busy-ports/5');
 });
 
 router.get('/most-busy-ports/:limit?', async (req, res) => {
