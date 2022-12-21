@@ -7,7 +7,7 @@ This is a repository containing a project for implementing Portchain coding chal
 
 For running, you will only need Node.js and a node global package manager NPM, installed in your environment.
 
-## Run the app
+## Install the project
 
     $ git clone https://github.com/cyberprodigy/portchain-challlenge
     $ cd portchain-challlenge
