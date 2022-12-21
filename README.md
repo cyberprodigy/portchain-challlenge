@@ -17,7 +17,7 @@ For running, you will only need Node.js and a node global package manager NPM, i
 
     $ npm run start
     
-    Now you can navigate to http://localhost:4000(http://localhost:4000) to view the project
+Now you can navigate to [http://localhost:4000](http://localhost:4000) to view the project
 
 ## Running the tests
 
